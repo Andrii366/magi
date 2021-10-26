@@ -5,8 +5,8 @@
 #include <time.h>
 #include <algorithm>    // std::copy
 
-constexpr auto word_length = 6;
-constexpr auto N = 8;
+constexpr auto word_length = 9;
+constexpr auto N = 33;
 constexpr auto D = 3;
 
 using namespace std;
@@ -78,10 +78,12 @@ void read_file(bool** ptr_input) {
     int i = 0, n_str = 0;
     char c_buff;
     while (file.get(c_buff)) {
-        if (c_buff == '0')
+        if (c_buff == '0') {
             ptr_input[n_str][i] = 0;
-        else if (c_buff == '1')
+        }
+        else if (c_buff == '1') {
             ptr_input[n_str][i] = 1;
+        }
         else continue;
         if (++i == word_length) {
             i = 0;

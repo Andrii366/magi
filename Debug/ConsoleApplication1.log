@@ -1,0 +1,3 @@
+﻿  ConsoleApplication1.cpp
+D:\Main\study\Magi\Тесла\ConsoleApplication1\ConsoleApplication1.cpp(139,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ConsoleApplication1.vcxproj -> D:\Main\study\Magi\Тесла\ConsoleApplication1\Debug\ConsoleApplication1.exe
